@@ -1,2 +1,2 @@
 # FirebaseSocialMedia
-A social Media website using Firebase as BackEnd
+A simple social media website using Firebase
