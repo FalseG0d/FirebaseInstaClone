@@ -1,34 +1,35 @@
 const functions = require('firebase-functions');
 const admin=require('firebase-admin');
 admin.initializeApp();
-// // Create and Deploy Your First Cloud Functions
-// // https://firebase.google.com/docs/functions/write-firebase-functions
-//
-exports.helloWorld = functions.https.onRequest((request, response) => {
-    response.send("Hello from Firebase!");
-});
 
-exports.getScreams=functions.https.onRequest((request,response)=>{
-    admin.firestore().collection('screams').get().then((data)=>{
+const express=require("express");
+const app=express();
+
+app.get('/screams',(request,response)=>{
+    admin.firestore().collection('screams').orderBy('createdBy','desc').get().then((data)=>{
         let screams=[];
         data.forEach((doc)=>{
-            screams.push(doc.data());
+            screams.push({
+                screamId:doc.id,
+                body:doc.data().body,
+                userHandle:doc.data().userHandle,
+                createdAt:doc.data().createdAt,
+            });
         });
         return response.json(screams);
     }).catch((err)=>console.error(err));
 
-});
+})
+// // Create and Deploy Your First Cloud Functions
+// // https://firebase.google.com/docs/functions/write-firebase-functions
+//
 
-exports.createScreams=functions.https.onRequest((request,response)=>{
-    if(request.method!='POST'){
-        return response.status(400).json({
-            error:"Method not allowed",
-        });
-    }
+app.post('/screams',(request,response)=>{
+    
     const newScream={
         body:request.body.body,
         userHandle:request.body.userHandle,
-        createdAt:admin.firestore.Timestamp.fromDate(new Date())
+        createdAt:new Date().toISOString()//admin.firestore.Timestamp.fromDate(new Date())
     };
 
     admin.firestore().collection('screams').add(newScream).then((doc)=>{
@@ -42,3 +43,5 @@ exports.createScreams=functions.https.onRequest((request,response)=>{
     });
 
 });
+
+exports.api=functions.region('asia-east2').https.onRequest(app);
