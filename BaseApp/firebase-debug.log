@@ -1,0 +1,62 @@
+[debug] [2020-12-29T12:36:59.359Z] ----------------------------------------------------------------------
+[debug] [2020-12-29T12:36:59.361Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ugarg\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-12-29T12:36:59.361Z] CLI Version:   9.1.0
+[debug] [2020-12-29T12:36:59.361Z] Platform:      win32
+[debug] [2020-12-29T12:36:59.361Z] Node Version:  v14.15.0
+[debug] [2020-12-29T12:36:59.362Z] Time:          Tue Dec 29 2020 18:06:59 GMT+0530 (India Standard Time)
+[debug] [2020-12-29T12:36:59.362Z] ----------------------------------------------------------------------
+[debug] [2020-12-29T12:36:59.362Z] 
+[debug] [2020-12-29T12:36:59.364Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=535852378&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-12-29T12:37:32.592Z] ----------------------------------------------------------------------
+[debug] [2020-12-29T12:37:32.594Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ugarg\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-12-29T12:37:32.594Z] CLI Version:   9.1.0
+[debug] [2020-12-29T12:37:32.594Z] Platform:      win32
+[debug] [2020-12-29T12:37:32.594Z] Node Version:  v14.15.0
+[debug] [2020-12-29T12:37:32.595Z] Time:          Tue Dec 29 2020 18:07:32 GMT+0530 (India Standard Time)
+[debug] [2020-12-29T12:37:32.595Z] ----------------------------------------------------------------------
+[debug] [2020-12-29T12:37:32.595Z] 
+[debug] [2020-12-29T12:37:32.597Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=753929380&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-12-29T12:37:49.463Z] ----------------------------------------------------------------------
+[debug] [2020-12-29T12:37:49.465Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ugarg\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-12-29T12:37:49.465Z] CLI Version:   9.1.0
+[debug] [2020-12-29T12:37:49.465Z] Platform:      win32
+[debug] [2020-12-29T12:37:49.465Z] Node Version:  v14.15.0
+[debug] [2020-12-29T12:37:49.466Z] Time:          Tue Dec 29 2020 18:07:49 GMT+0530 (India Standard Time)
+[debug] [2020-12-29T12:37:49.466Z] ----------------------------------------------------------------------
+[debug] [2020-12-29T12:37:49.466Z] 
+[debug] [2020-12-29T12:37:49.468Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=759245606&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-12-29T12:38:01.068Z] ----------------------------------------------------------------------
+[debug] [2020-12-29T12:38:01.070Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ugarg\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-12-29T12:38:01.070Z] CLI Version:   9.1.0
+[debug] [2020-12-29T12:38:01.070Z] Platform:      win32
+[debug] [2020-12-29T12:38:01.070Z] Node Version:  v14.15.0
+[debug] [2020-12-29T12:38:01.071Z] Time:          Tue Dec 29 2020 18:08:01 GMT+0530 (India Standard Time)
+[debug] [2020-12-29T12:38:01.071Z] ----------------------------------------------------------------------
+[debug] [2020-12-29T12:38:01.071Z] 
+[debug] [2020-12-29T12:38:01.073Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
